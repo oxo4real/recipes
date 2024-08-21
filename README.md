@@ -1,2 +1,2 @@
 # recipes
-This repository will contain all of the projects required in the TOP course.
+This is a training project from the TOP course it's about creating a website that contains some recepies.

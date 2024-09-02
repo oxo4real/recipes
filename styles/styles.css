@@ -2,3 +2,29 @@
 	background-color: bisque;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+	min-height: 95.5vh;
+	position: relative;
+}
+
+#footer {
+	display: flex;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	justify-content: center;
+	align-items: center;
+	height: 55px;
+}
+
+#footer > p {
+	font-size: 0,75rem;
+	color: #1F2937;
+}

@@ -11,10 +11,12 @@ html {
 }
 
 body {
+	display: flex;
+	flex-direction: column;
 	overflow-x: hidden;
 	box-sizing: border-box;
+	justify-content: space-between;
 	min-height: 100vh;
-	position: relative;
 	padding: 0 20px;
 }
 
@@ -30,8 +32,6 @@ h1, h2 {
 #footer {
 	display: flex;
 	width: 100%;
-	position: relative;
-	bottom: 0;
 	justify-content: center;
 	align-items: center;
 	height: 55px;
